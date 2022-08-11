@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.header {
+  height: 4rem;
+  padding: .5rem 0;
+  background-color: vars.$blue-color;
+  opacity: 80%;
+  color: #fff;
+
+  &__band {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+

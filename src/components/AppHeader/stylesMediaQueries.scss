@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+
+// Format Native en min 0 max 375 px
+
+//! max-width == jusqu'à 1023px ! ! ! 
+
+// MOBILE
+@media screen and (max-width: 1023px) {
+    .nav__responsive--display {
+        display: none;
+    }
+
+}
+
+
+// MEDIUM Size
+@media screen and (min-width: 1024px) {
+
+
+}
+
+
+// DESKTOP 
+@media screen and (min-width: 1440px) {
+
+  
+}

@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+
+.top__header {
+  margin-bottom: 1rem;
+}
+.nav {
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.705);
+  &__btn {
+    margin-bottom: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 129, 224);
+    padding: 1rem 0;
+    color: #fff;
+    font-weight: bold;
+  }
+}

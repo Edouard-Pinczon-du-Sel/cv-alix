@@ -1,18 +1,12 @@
-// == Import
-import './styles.scss';
+import HeaderTop from './HeaderTop';
+import HeaderNavBar from './HeaderNavBar';
 
-// == Composant
 function AppHeader() {
   return (
-    <div className="header">
-      <nav>
-        <a href="#">Presensation</a>
-        <a href="#">Expérience</a>
-        <a href="#">Compétences</a>
-        <a href="#">Contact</a>
-      </nav>
-      <img srx="#" />
-    </div>
+    <header className="top__header">
+      <HeaderTop />
+      <HeaderNavBar />
+    </header>
   );
 }
 
