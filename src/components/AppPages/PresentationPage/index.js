@@ -2,6 +2,7 @@
 // import PropTypesLib from 'prop-types';
 import './styles.scss';
 import './stylesMediaQueries.scss';
+import imgEcole from '../../../assets/images/ecole.png'
 
 
 // == Composant
@@ -18,25 +19,27 @@ function PresentationPage() {
             d'intégrer l’institut Mac Luhan de l’IRCOM pour un master management de la communication l'année prochaine ! 
             N'hésitez pas à parcourir ce site si vous voulez en savoir plus !
           </p>
-          <img className='presentation__img' src="https://fakeimg.pl/300/" alt="école ircom" />
+          <img className='presentation__img presentation__img--ecole' src={imgEcole} alt="école ircom" />
         </section>
-        <section className='presentation__passions presentation__section'>
-          <h2 className='presentation__title'>Mes Passions</h2>
-          <p className='presentation__txt'>
-            Je suis passionnée par la lecture, l'Histoire et les arts créatifs.
-            Mais j'aime aussi des sujets plus divers tels que le droit, la géopolitiqueles et les nouvelles technologies
-          </p>
-        </section>
+        <div className='presentation__container--right'>
+          <section className='presentation__passions presentation__section'>
+            <h2 className='presentation__title'>Mes Passions</h2>
+            <p className='presentation__txt'>
+              Je suis passionnée par la lecture, l'Histoire et les arts créatifs.
+              Mais j'aime aussi des sujets plus divers tels que le droit, la géopolitiqueles et les nouvelles technologies
+            </p>
+          </section>
+          <section className='presentation__objectifs presentation__section'>
+            <h2 className='presentation__title'>Mes Objectifs</h2>
+            <p className='presentation__txt'>
+              Continuer mes études, découvrir de nouvelles choses, me perfectionner et trouver l’entreprise qui me permettra 
+              de m’accomplir professionnellement en donnant du sens à ma vie.
+            </p>
+          </section>
+        </div>
         <section className='presentation__evolution presentation__section'>
           <h2 className='presentation__title'>Mon Parcours</h2>
-          <img  className='presentation__img'src="https://fakeimg.pl/300/"/>
-        </section>
-        <section className='presentation__objectifs presentation__section'>
-          <h2 className='presentation__title'>Mes Objectifs</h2>
-          <p className='presentation__txt'>
-            Continuer mes études, découvrir de nouvelles choses, me perfectionner et trouver l’entreprise qui me permettra 
-            de m’accomplir professionnellement en donnant du sens à ma vie.
-          </p>
+          <img  className='presentation__img presentation__img--parcours'src={imgEcole} />
         </section>
       </div>
     </aside>
