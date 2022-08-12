@@ -9,9 +9,10 @@ import imgEcole from '../../../assets/images/ecole.png'
 function PresentationPage() {
   return (
     <aside className='presentation'>
-      <h1 className='presentation__title--page'>Présentation</h1>
+      <button className='presentation__btn' type="button">Test</button>
       <div class='presentation__container'>
         <section className='presentation__welcome presentation__section'>
+          <h1 className='presentation__title--page'>Présentation</h1>
           <img className='presentation__img--profile' src="https://fakeimg.pl/300/" alt="photo de profile" />
           <h1 className='presentation__title'>Bienvenue sur mon site Web !</h1>
           <p className='presentation__txt'>
@@ -37,11 +38,8 @@ function PresentationPage() {
             </p>
           </section>
         </div>
-        <section className='presentation__evolution presentation__section'>
-          <h2 className='presentation__title'>Mon Parcours</h2>
-          <img  className='presentation__img presentation__img--parcours'src={imgEcole} />
-        </section>
       </div>
+      <button className='presentation__btn' type="button">Test</button>
     </aside>
   );
 }
