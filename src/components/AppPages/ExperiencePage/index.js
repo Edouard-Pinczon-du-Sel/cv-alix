@@ -49,8 +49,8 @@ function ExperiencePage() {
             <h2 className='experiences__title'>Mon curriculum vitæ</h2>
             <p className='experiences__txt'>
              Si vous voulez en savoir plus sur moi, mon parcours et mes expériences vous pouvez cliquer 
-             <a className='experiences__cursus--link' href='../../../assets/images/cv.pdf' target="blank">ici</a>
-             pour consulter mon cv
+             <a className='experiences__cursus--link' href='../../../assets/images/cv.pdf' target="blank"> ici </a>
+             pour consulter mon CV
             </p>
           </section>
         </div>
