@@ -2,13 +2,9 @@
 
 
 @media screen and (min-width: 426px) {
-    .presentation {
+    .experiences {
         &__title--page {
             font-size: 2.5rem;
-        }
-
-        &__img--profile {
-            width: 40%;
         }
 
         &__title {
@@ -19,8 +15,16 @@
             font-size: 1.2rem;
         }
 
-        &__img {
-            width: 35%;
+        &__li {
+            font-size: 1.3rem;
+        }
+
+        &__img--stage {
+            width: 50%;
+        }
+
+        &__img--espagne {
+            width: 30%;
         }
     }
 
@@ -29,7 +33,7 @@
 
 // MEDIUM Size
 @media screen and (min-width: 768px) {
-   .presentation {
+   .experiences {
         margin: 0 2rem;
         display: flex;
         align-items: center;
@@ -52,57 +56,61 @@
             align-items: stretch;
         }
 
-        &__img--profile {
-            width: 45%;
-            margin: 0;
-        }
-
-        &__welcome {
-            border-radius: 0;
-            box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.3);
-            width: 50%;
-        }
-
         &__container--right {
             margin: 1rem 0rem 0 1.3rem; 
             width: 42%;
         }
 
-        &__passions {
+        &__pro {
+            border-radius: 0;
+            box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.3);
+            width: 50%;
+        }
+
+        &__perso {
             background-color: rgba(115, 108, 108, 0.618);
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
             margin-bottom: 0.8rem;
-            height: 43%;
+            height: 66.7%;
         }
 
-        &__objectifs {
+        &__cursus {
             background-color: rgba(115, 108, 108, 0.618);
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
-            height: 54%;
+            height: 31%;
         }
-        
-
-        &__img--ecole {
-            width: 70%;
-            display: none;
-        }
-       
 
         &__title {
             font-size: 1.2rem;
             text-align: center;
+            margin: 0.5rem 0;
         }
 
         &__txt {
             font-size: 1.1rem;
-        }  
+        }
+
+        &__li {
+            font-size: 1.030rem;
+            margin: 0.4rem;
+        }
+
+        &__img--stage {
+            display: none;
+        }
+
+        &__img--espagne {
+            display: none;
+        }
+        
+       
    }
 
 }
 
 // MEDIUM Size
 @media screen and (min-width: 1024px) {
-    .presentation {
+    .experiences {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -113,8 +121,13 @@
         }
 
         &__title {
+            margin-top: 1.2rem;
             font-size: 1.6rem;
             text-align: center;
+        }
+
+        &__li {
+            font-size: 1.3rem;
         }
 
 
@@ -128,15 +141,6 @@
 
 // DESKTOP 
 @media screen and (min-width: 1250px) {
-    .presentation {
-        &__welcome {
-            width: 50%;
-        }
-    
-        &__container--right {
-            margin: 1rem 0rem 0 1.3rem; 
-            width: 40%;
-        }
-    }
-    
+
+  
 }

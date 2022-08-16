@@ -18,7 +18,7 @@ function PresentationPage() {
         <section className='presentation__welcome presentation__section'>
           <h1 className='presentation__title--page'>Présentation</h1>
           <img className='presentation__img--profile' src="https://fakeimg.pl/300/" alt="photo de profile" />
-          <h1 className='presentation__title'>Bienvenue sur mon site Web !</h1>
+          <h2 className='presentation__title'>Bienvenue sur mon site Web !</h2>
           <p className='presentation__txt'>
             Je m'appelle Alix Pinczon du Sel, j'ai 21 ans et je suis sur le point
             d'intégrer l’institut Mac Luhan de l’IRCOM pour un master management de la communication l'année prochaine ! 
