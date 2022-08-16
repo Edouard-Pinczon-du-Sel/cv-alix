@@ -1,0 +1,38 @@
+@use 'src/styles/vars';
+
+
+@media screen and (min-width: 426px) {
+    .btn--right {
+        display: none;
+    }
+
+    .btn--left {
+        display: none;
+    }
+
+}
+
+
+// MEDIUM Size
+@media screen and (min-width: 768px) {
+    .btn--right {
+        display: initial;
+    }
+
+    .btn--left {
+        display: initial;
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+    .btn--right img{
+        width: 5rem;
+    }
+
+    .btn--left img{
+        width: 5rem;
+
+    }
+}
+

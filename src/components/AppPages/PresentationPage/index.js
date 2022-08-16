@@ -1,15 +1,19 @@
 // == Import
 // import PropTypesLib from 'prop-types';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 import './stylesMediaQueries.scss';
 import imgEcole from '../../../assets/images/ecole.png'
+import BtnLeft from '../AppBtn/BtnLeft';
+import BtnRight from '../AppBtn/BtnRight';
+
 
 
 // == Composant
 function PresentationPage() {
   return (
     <aside className='presentation'>
-      <button className='presentation__btn' type="button">Test</button>
+      <Link to='/contact'><BtnLeft /></Link>
       <div class='presentation__container'>
         <section className='presentation__welcome presentation__section'>
           <h1 className='presentation__title--page'>Présentation</h1>
@@ -39,7 +43,7 @@ function PresentationPage() {
           </section>
         </div>
       </div>
-      <button className='presentation__btn' type="button">Test</button>
+      <Link to='/experience'><BtnRight /></Link>
     </aside>
   );
 }
