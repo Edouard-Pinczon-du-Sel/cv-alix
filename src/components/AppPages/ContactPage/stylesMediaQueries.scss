@@ -1,0 +1,134 @@
+@use 'src/styles/vars';
+
+
+@media screen and (min-width: 426px) {
+    .contact {
+        &__title--page {
+            font-size: 2.5rem;
+        }
+
+        &__title {
+            font-size: 1.8rem;
+        }
+
+        &__txt {
+            font-size: 1.2rem;
+        }
+
+        &__li {
+            font-size: 1.3rem;
+        }
+       
+    }
+
+}
+
+
+// MEDIUM Size
+@media screen and (min-width: 768px) {
+   .contact {
+        margin: 0 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        &__title--page {
+            width: 100%;
+            text-align: initial;
+            font-size: 2rem;
+            padding: 1rem 0rem 1rem 1rem;
+            background-color: rgba(49, 49, 140, 0.581);
+            color: #fff;
+        }
+        
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        &__container--right {
+            margin: 1rem 0rem 0 1.3rem; 
+            width: 42%;
+        }
+
+        &__generale {
+            border-radius: 0;
+            box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.3);
+            width: 50%;
+        }
+
+        &__info {
+            background-color: rgba(115, 108, 108, 0.618);
+            box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
+            margin-bottom: 0.8rem;
+            height: 59%;
+        }
+
+        &__litteraire {
+            background-color: rgba(115, 108, 108, 0.618);
+            box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
+            height: 39%;
+        }
+
+        &__title {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 0.5rem 0;
+        }
+
+        &__txt {
+            font-size: 1.1rem;
+        }
+
+        &__li {
+            font-size: 1.03rem;
+            margin: 0.4rem;
+        }
+
+        
+
+
+        
+       
+   }
+
+}
+
+// MEDIUM Size
+@media screen and (min-width: 1024px) {
+    .contact {
+
+        &__title--page {
+            font-size: 2.2rem;
+        }
+
+        &__title {
+            margin-top: 1.2rem;
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        &__li {
+            font-size: 1.3rem;
+        }
+
+        &__li--litteraire {
+            font-size: 1.3rem;
+        }
+
+        &__txt {
+            font-size: 1.4rem;
+        } 
+   }
+
+}
+
+
+// DESKTOP 
+@media screen and (min-width: 1250px) {
+
+  
+}
