@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import BtnLeft from '../AppBtn/BtnLeft';
 import BtnRight from '../AppBtn/BtnRight';
 import imgStage from '../../../assets/images/stage.jpg'
-import imgEspagne from '../../../assets/images/espagne.png'
+import imgEspagne from '../../../assets/images/spain.png'
 
 
 import './styles.scss';
@@ -55,7 +55,7 @@ function ExperiencePage() {
           </section>
         </div>
       </div>
-      <Link to='/competences'><BtnRight /></Link>
+      <Link to='/competence'><BtnRight /></Link>
     </aside>
   );
 }
