@@ -1,5 +1,7 @@
 .contact {
     height: 90vh;
+    padding-top: 5rem;
+
 
     //section 1
     &__title--page {
@@ -70,8 +72,6 @@
         transform: scale(1.05);
 
     }
-
-  
 
     &__p {
         font-weight: bold;

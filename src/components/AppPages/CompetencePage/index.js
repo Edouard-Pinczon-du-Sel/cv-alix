@@ -23,7 +23,7 @@ function CompetencePage() {
         <h1 className='competence__title--page'>Compétences</h1>
         <h2 className='competence__title'>Générales</h2>
         <p className='competence__txt'>
-          Mes études et mes expériences personnelles et professionnelles m'ont apprises à être 
+          Mes études et mes expériences personnelles et professionnelles m'ont appris à être 
           une personne rigoureuse, organisée, motivée et attentionnée... J'ai l'esprit d'équipe et du travail bien fait.
           Je suis passionnée par ce que j'entreprends et en constante évolution.
         </p>
@@ -38,7 +38,7 @@ function CompetencePage() {
           <h2 className='competence__title'>Informatiques</h2>
           <ul className='competence__txt'>
             <li className='competence__li'><p className='competence__p'>Je maitrîse le Pack Office 365</p> de Microsoft</li>
-            <li className='competence__li'><p className='competence__p'>Les bases de WordPress</p> pour créer de jolies sites fonctionnels</li>
+            <li className='competence__li'><p className='competence__p'>Les bases de WordPress</p> pour créer de jolis sites fonctionnels</li>
             <li className='competence__li'><p className='competence__p'>Canva</p> afin de produire des documents travaillés</li>
             <li className='competence__li'><p className='competence__p'>La communication sur les réseaux sociaux : </p>Facebook, Instagram, WhatsApp...</li>
             <li className='competence__li'><p className='competence__p'>Première Pro</p> de la suite Adobe pour du montage vidéo</li>

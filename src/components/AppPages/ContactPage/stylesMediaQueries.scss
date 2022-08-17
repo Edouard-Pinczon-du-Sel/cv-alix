@@ -1,6 +1,7 @@
 @use 'src/styles/vars';
 
 
+
 @media screen and (min-width: 426px) {
     .contact {
         &__title--page {
@@ -18,9 +19,6 @@
         &__li {
             font-size: 1.3rem;
         }
-
-        
-       
     }
 
 }
@@ -69,7 +67,6 @@
             margin-bottom: 0.8rem;
             height: 59%;
         }
-
        
 
         &__litteraire {
@@ -124,6 +121,10 @@
 
         &__container--icones {
             padding: 0rem 1rem 0.5rem 3.2rem;
+        }
+
+        &__img {
+            width: 60%;
         }
 
         &__map {
