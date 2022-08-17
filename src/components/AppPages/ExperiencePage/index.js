@@ -8,12 +8,9 @@ import imgEspagne from '../../../assets/images/spain.png'
 import imgTrophy from '../../../assets/images/trophy.png'
 import imgKnight from '../../../assets/images/knight.png'
 import imgFire from '../../../assets/images/fire.png'
-
-
-
-
 import './styles.scss';
 import './stylesMediaQueries.scss';
+import { useEffect } from 'react';
 
 
 // == Composant
@@ -21,10 +18,11 @@ function ExperiencePage() {
   const url = {
     video: 'https://wetransfer.com/downloads/a5723c407298df4e396f41ca51a01eba20220817113301/dd019c4f3e035a3eb487aef05c54694820220817113313/0a1e6b'
   }
+  
   return (
-<aside className='experiences'>
+    <aside className='experiences'>
       <Link to='/'><BtnLeft /></Link>
-      <div class='experiences__container'>
+      <div className='experiences__container'>
         <section className='experiences__pro experiences__section'>
           <h1 className='experiences__title--page'>Expérience</h1>
           <h2 className='experiences__title'>Expériences professionnelles</h2>
@@ -62,9 +60,9 @@ function ExperiencePage() {
           <section className='experiences__cursus experiences__section'>
             <h2 className='experiences__title'>Mon curriculum vitæ</h2>
             <p className='experiences__txt'>
-             Si vous voulez en savoir plus sur moi, mon parcours et mes expériences vous pouvez 
-             <Link to='/cv'><a className='experiences__cursus--link' target="blank"> cliquer ici </a></Link>
-             pour consulter mon CV
+            Si vous voulez en savoir plus sur moi, mon parcours et mes expériences vous pouvez 
+            <Link to='/cv'><a className='experiences__cursus--link' target="blank"> cliquer ici </a></Link>
+            pour consulter mon CV
             </p>
           </section>
         </div>

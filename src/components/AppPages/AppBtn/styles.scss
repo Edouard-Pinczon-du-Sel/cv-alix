@@ -1,10 +1,19 @@
 .btn--left {
     border: none;
     background-color: #fff;
-    transform: rotate(180deg);
 }
 
 .btn--right {
     border: none;
     background-color: #fff;
+}
+
+.btn--right:hover {
+    transform: scale(0.92);
+    transition: 0.3s ease-in-out;
+}
+
+.btn--left:hover {
+    transform: scale(0.92);
+    transition: 0.3s ease-in-out;
 }

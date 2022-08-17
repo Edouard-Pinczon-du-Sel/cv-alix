@@ -1,7 +1,7 @@
 // == Import
 import './styles.scss';
 import './stylesMediaQueries.scss';
-import imgBtn from '../../../assets/images/btn.png';
+import imgBtn from '../../../assets/images/back.png';
 
 // == Composant
 function BtnLeft() {

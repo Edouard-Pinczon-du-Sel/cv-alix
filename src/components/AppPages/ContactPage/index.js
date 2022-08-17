@@ -17,7 +17,7 @@ function ContactPage() {
   return (
     <aside className='contact'>
     <Link to='/competence'><BtnLeft /></Link>
-    <div class='contact__container'>
+    <div className='contact__container'>
       <section className='contact__generale contact__section'>
         <h1 className='contact__title--page'>Contact</h1>
         <h2 className='contact__title'>A propos</h2>
@@ -52,7 +52,6 @@ function ContactPage() {
             <li className='contact__li--info'><p className='contact__p'>Âge : </p>21</li>
             <li className='contact__li--info'><p className='contact__p'>Sexe : </p>Féminin</li>
             <li className='contact__li--info'><p className='contact__p'>Statut : </p>Célibataire</li>
-
           </ul>
         </section>
       </div>
