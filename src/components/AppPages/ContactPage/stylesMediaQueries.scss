@@ -58,6 +58,7 @@
             border-radius: 0;
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.3);
             width: 50%;
+            height: 40.426875rem;
         }
 
         &__info {
@@ -87,6 +88,8 @@
             font-size: 1.03rem;
             margin: 0.4rem;
         }
+
+        
 
         
 
@@ -121,7 +124,12 @@
 
         &__txt {
             font-size: 1.4rem;
-        } 
+        }
+
+        &__container--icones {
+            padding: 0rem 1rem 1rem 3.2rem;
+        }
+       
    }
 
 }
@@ -129,6 +137,16 @@
 
 // DESKTOP 
 @media screen and (min-width: 1250px) {
+    .contact {
+        &__container--icones {
+            padding: 7rem 0rem 5rem 8rem;
+        }
 
+        &__btn {
+            padding: 0.9rem 2.6rem;
+        font-size: 2.3rem;
+        }
+    }
+    
   
 }

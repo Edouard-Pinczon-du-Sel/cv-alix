@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import './styles.scss';
 import './stylesMediaQueries.scss';
 import imgEcole from '../../../assets/images/ecole.png'
+import imgBook from '../../../assets/images/book.png'
+import imgHistory from '../../../assets/images/history.png'
+import imgArt from '../../../assets/images/art.png'
+import imgGeo from '../../../assets/images/geopolitic.png'
 import BtnLeft from '../AppBtn/BtnLeft';
 import BtnRight from '../AppBtn/BtnRight';
 
@@ -33,6 +37,12 @@ function PresentationPage() {
               Je suis passionnée par la lecture, l'Histoire et les arts créatifs.
               Mais j'aime aussi des sujets plus divers tels que le droit, la géopolitiqueles et les nouvelles technologies
             </p>
+            <div className='presentation__container--icones'>
+              <span><img className='presentation__icone' src={imgBook} /></span>
+              <span><img className='presentation__icone' src={imgHistory} /></span>
+              <span><img className='presentation__icone' src={imgArt} /></span>
+              <span><img className='presentation__icone' src={imgGeo} /></span>
+            </div>
           </section>
           <section className='presentation__objectifs presentation__section'>
             <h2 className='presentation__title'>Mes Objectifs</h2>

@@ -32,6 +32,7 @@ function ExperiencePage() {
           <p className='experiences__txt'>
             Au cours de ma licence, j’ai eu l’occasion d’aller étudier durant un semestre à Madrid. Ce fut l’occasion d’une très
             belle expérience internationale autant du point de vue des langues que du point de vue culturel et touristique.
+            Voici une vidéo pour en savoir plus.
           </p>
           <img className='experiences__img experiences__img--espagne' src={imgEspagne} alt='drapeau espagnole' />
         </section>

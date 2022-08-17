@@ -61,6 +61,7 @@
             border-radius: 0;
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.3);
             width: 50%;
+            height: 40.426875rem;
         }
 
         &__container--right {
@@ -73,6 +74,15 @@
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
             margin-bottom: 0.8rem;
             height: 43%;
+        }
+
+        &__container--icones {
+            margin-left: 1.3rem;
+        }
+
+        &__icone {
+            margin: 1rem 0.5rem;
+            width: 15%;
         }
 
         &__objectifs {
@@ -120,7 +130,16 @@
 
         &__txt {
             font-size: 1.4rem;
-        }  
+        } 
+        
+        &__container--icones {
+            margin-left: 2.8rem;
+        }
+
+        &__icone {
+            margin: 0rem 0.5rem;
+            width: 15%;
+        }
    }
 
 }
@@ -136,6 +155,15 @@
         &__container--right {
             margin: 1rem 0rem 0 1.3rem; 
             width: 40%;
+        }
+
+        &__container--icones {
+            margin-left: 2rem;
+        }
+
+        &__icone {
+            margin: 2rem 0.7rem;
+            width: 18%;
         }
     }
     
