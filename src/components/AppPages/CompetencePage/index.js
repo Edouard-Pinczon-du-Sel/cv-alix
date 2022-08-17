@@ -23,7 +23,7 @@ function CompetencePage() {
         <h1 className='competence__title--page'>Compétences</h1>
         <h2 className='competence__title'>Générales</h2>
         <p className='competence__txt'>
-          Mes études et mes expériences personnelles et professionnelles m'ont apprise à être 
+          Mes études et mes expériences personnelles et professionnelles m'ont apprises à être 
           une personne rigoureuse, organisée, motivée et attentionnée... J'ai l'esprit d'équipe et du travail bien fait.
           Je suis passionnée par ce que j'entreprends et en constante évolution.
         </p>

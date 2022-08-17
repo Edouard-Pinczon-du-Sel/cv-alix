@@ -27,7 +27,7 @@ function ExperiencePage() {
           <h1 className='experiences__title--page'>Expérience</h1>
           <h2 className='experiences__title'>Expériences professionnelles</h2>
           <p className='experiences__txt'>
-            Mes études m'ont persmise de mettre un pied ans le monde du travail et de me forger de réelles expériences en société
+            Mes études m'ont persmises de mettre un pied ans le monde du travail et de me forger de réelles expériences en société
           </p>
           <ul className='experiences__list'>
             <li className='experiences__li'>2021 :  Stage chez DDay wedding planner Nantes (2 mois)</li>
