@@ -1,5 +1,6 @@
 // == Import
 import { Route, Routes } from 'react-router-dom';
+import CvPage from '../AppAnnexes/CvPage';
 import AppHeader from '../AppHeader';
 import CompetencePage from '../AppPages/CompetencePage';
 import ContactPage from '../AppPages/ContactPage';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/competence" element={<CompetencePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/cv" element={<CvPage />} />
       </Routes>
     </div>
   );

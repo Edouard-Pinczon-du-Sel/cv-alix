@@ -7,6 +7,9 @@ import './stylesMediaQueries.scss';
 import imgAdjectifs from '../../../assets/images/adjectifs.png';
 import imgSpain from '../../../assets/images/spain.png';
 import imgUK from '../../../assets/images/uk.png';
+import imgPhone from '../../../assets/images/phone.png'
+import imgOrganisation from '../../../assets/images/organisation.png'
+import imgNotes from '../../../assets/images/notes.png'
 import BtnLeft from '../AppBtn/BtnLeft';
 import BtnRight from '../AppBtn/BtnRight';
 
@@ -20,7 +23,7 @@ function CompetencePage() {
           <h1 className='competence__title--page'>Compétences</h1>
           <h2 className='competence__title'>Générales</h2>
           <p className='competence__txt'>
-            Mes études et mes expériences personnelles et professiionnelles m'ont apprise à être 
+            Mes études et mes expériences personnelles et professionnelles m'ont apprise à être 
             une personne rigoureuse, organisée, motivée et attentionnée... J'ai l'esprit d'équipe et du travail bien fait.
             Je suis passionnée par ce que j'entreprends et en constante évolution.
           </p>
@@ -37,9 +40,14 @@ function CompetencePage() {
               <li className='competence__li'><p className='competence__p'>Je maitrîse le Pack Office 365</p> de Microsoft</li>
               <li className='competence__li'><p className='competence__p'>Les bases de WordPress</p> pour créer de jolies sites fonctionnels</li>
               <li className='competence__li'><p className='competence__p'>Canva</p> afin de produire des documents travaillés</li>
-              <li className='competence__li'>La communication sur <p className='competence__p'>les réseaux sociaux : </p>Facebook, Instagram, WhatsApp...</li>
+              <li className='competence__li'><p className='competence__p'>La communication sur les réseaux sociaux : </p>Facebook, Instagram, WhatsApp...</li>
               <li className='competence__li'><p className='competence__p'>Première Pro</p> de la suite Adobe pour du montage vidéo</li>
             </ul>
+            <div className='competence__container--icones'>
+              <span><img className='competence__icone' src={imgPhone} /></span>
+              <span><img className='competence__icone' src={imgOrganisation} /></span>
+              <span><img className='competence__icone' src={imgNotes} /></span>
+            </div>
           </section>
           <section className='competence__litteraire competence__section'>
             <h2 className='competence__title'>Littéraires</h2>

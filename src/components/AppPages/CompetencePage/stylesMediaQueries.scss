@@ -76,6 +76,14 @@
             height: 65.9%;
         }
 
+        &__container--icones {
+            margin-left: 1rem;
+        }
+
+        &__icone {
+           display: none;
+        }
+
         &__litteraire {
             background-color: rgba(115, 108, 108, 0.618);
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
@@ -148,6 +156,12 @@
         &__txt {
             font-size: 1.4rem;
         } 
+
+        &__icone {
+            display: initial;
+            margin: 0rem 0.8rem;
+            width: 20%;
+        }
    }
 
 }
@@ -155,6 +169,15 @@
 
 // DESKTOP 
 @media screen and (min-width: 1250px) {
-
-  
+    .competence {
+        &__container--icones {           
+            width: 65%;
+        }
+    
+        &__icone {
+            margin: 1.8rem 1rem;
+            width: 20%;
+        }
+    }
+    
 }

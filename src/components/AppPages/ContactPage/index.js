@@ -6,7 +6,9 @@ import './styles.scss';
 import './stylesMediaQueries.scss';
 import imgLinkedin from '../../../assets/images/linkedin.png'
 import imgInsta from '../../../assets/images/insta.png'
-import imgWhatsapp from '../../../assets/images/whatsapp.png'
+import imgFacebook from '../../../assets/images/facebook.png'
+import imgSelfie from '../../../assets/images/selfie.png'
+import imgMap from '../../../assets/images/map.png'
 import BtnLeft from '../AppBtn/BtnLeft';
 import BtnRight from '../AppBtn/BtnRight';
 
@@ -22,12 +24,13 @@ function ContactPage() {
         <p className='contact__txt'>
         Si vous souhaitez entrer en contact avec moi. Voici quelques informations utiles qui pourraient vous servir. A très bientôt.
         </p>
+        <img className='contact__img' src={imgSelfie} alt='selfie Alix' />
         <div className='contact__txt contact__container--icones'>
-            <span className='contact__li'><img src={imgLinkedin} /></span>
-            <span className='contact__li'><img src={imgInsta} /></span>
-            <span className='contact__li'><img src={imgWhatsapp} /></span>
+            <a href='https://www.linkedin.com/in/alix-pinczon-du-sel/' className='contact__li'><img className='contact__icone' src={imgLinkedin} /></a>
+            <a href='https://www.instagram.com/alix_pinczon/' className='contact__li'><img className='contact__icone' src={imgInsta} /></a>
+            <a href='https://www.facebook.com/profile.php?id=100006893475954' className='contact__li'><img  className='contact__icone' src={imgFacebook} /></a>
         </div>
-        <button className='contact__btn' type='button'>Contacter moi</button>
+        <button className='contact__btn' type='button'><a href='mailto:alix.pinczondusel07@gmail'>Contactez moi</a></button>
       </section>
       <div className='contact__container--right'>
         <section className='contact__info contact__section'>
@@ -35,8 +38,11 @@ function ContactPage() {
           <ul className='contact__txt'>
             <li className='contact__li'><p className='contact__p'>E-mail :</p><a href='mailto:alix.pinczondusel07@gmail'>alix.pinczondusel07@gmail</a></li>
             <li className='contact__li'><p className='contact__p'>Téléphone :</p><a href='tel:0786176738'>07 86 17 67 38</a></li>
-            <li className='contact__li'><p className='contact__p'>Adresse : </p>11 route de Douarnenez, 29 000, Quimper, FRANCE</li>
+            <li className='contact__li'><p className='contact__p'>Adresse : </p>11 route de Douarnenez, 29 000, Quimper, FRANCE 
+              <a className='contact__link' href="https://goo.gl/maps/esshJj8zuTKi1x6c8"> consulter</a>
+            </li>
           </ul>
+          <img className='contact__map' src={imgMap} alt="carte localisation"/>
         </section>
         <section className='contact__litteraire competence__section'>
           <h2 className='contact__title'>Informations générales</h2>
@@ -44,6 +50,9 @@ function ContactPage() {
             <li className='contact__li--info'><p className='contact__p'>Nom :</p><a href='mailto:alix.pinczondusel07@gmail'>Pinczon du Sel</a></li>
             <li className='contact__li--info'><p className='contact__p'>Prénom :</p><a href='tel:0786176738'>Alix</a></li>
             <li className='contact__li--info'><p className='contact__p'>Âge : </p>21</li>
+            <li className='contact__li--info'><p className='contact__p'>Sexe : </p>Féminin</li>
+            <li className='contact__li--info'><p className='contact__p'>Statut : </p>Célibataire</li>
+
           </ul>
         </section>
       </div>

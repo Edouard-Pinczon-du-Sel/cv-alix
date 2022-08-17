@@ -20,7 +20,8 @@
 
     &__img--profile {
         width: 50%;
-        border-radius: 50%;
+        border-radius: 100%;
+        border: 10px solid #fff;
         margin: 1rem 0;  
     }
 
@@ -40,6 +41,10 @@
     &__img {
         width: 45%;
         margin: 1rem 0 2rem 0;  
+    }
+
+    &__video {
+        color: blue;
     }
 
     // section 2

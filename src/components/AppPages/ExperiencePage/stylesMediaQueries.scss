@@ -75,6 +75,15 @@
             height: 66.7%;
         }
 
+        &__container--icones {
+            margin-left: 1rem;
+        }
+
+        &__icone {
+            margin: 1rem 0.5rem;
+            width: 22%;
+        }
+
         &__cursus {
             background-color: rgba(115, 108, 108, 0.618);
             box-shadow: 2px 5px 15px 0px rgba(0, 0, 0,0.3);
@@ -132,6 +141,11 @@
         &__txt {
             font-size: 1.4rem;
         }  
+
+        &__icone {
+            margin: 0rem 0.8rem;
+            width: 20%;
+        }
    }
 
 }
@@ -139,6 +153,20 @@
 
 // DESKTOP 
 @media screen and (min-width: 1250px) {
+    .experiences {
 
+        &__img--stage {
+            width: 40%;
+        }
+        &__container--icones {           
+            width: 65%;
+        }
+    
+        &__icone {
+            margin: 1.8rem 1rem;
+            width: 20%;
+        }
+    }
+    
   
 }

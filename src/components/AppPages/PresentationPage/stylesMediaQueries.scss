@@ -53,8 +53,8 @@
         }
 
         &__img--profile {
-            width: 45%;
-            margin: 0;
+           width: 60%;
+           margin: 0;
         }
 
         &__welcome {
@@ -93,8 +93,7 @@
         
 
         &__img--ecole {
-            width: 70%;
-            display: none;
+            width: 65%;
         }
        
 
@@ -151,6 +150,10 @@
         &__welcome {
             width: 50%;
         }
+
+        &__img--profile {
+            width: 50%;
+        }
     
         &__container--right {
             margin: 1rem 0rem 0 1.3rem; 
@@ -162,9 +165,20 @@
         }
 
         &__icone {
-            margin: 2rem 0.7rem;
+            margin: 1.8rem 0.7rem;
             width: 18%;
         }
+    }
+    
+}
+
+@media screen and (min-width: 1600px) {
+    .presentation {
+
+        &__img--profile {
+            width: 20rem;
+        }
+    
     }
     
 }
