@@ -28,7 +28,7 @@ function PresentationPage() {
               Je m'appelle Alix Pinczon du Sel, j'ai 21 ans et je suis sur le point
               d'intégrer l’institut Mac Luhan de l’IRCOM pour un master management de la communication l'année prochaine ! 
               N'hésitez pas à parcourir ce site ou à 
-              <a className='presentation__video' href='https://we.tl/t-kKuqVir0JF'> regarder cette vidéo </a> 
+              <a className='presentation__video' href='https://youtu.be/ySyCLjHCVs4'> regarder cette vidéo </a> 
               de présentation si vous voulez en savoir plus !
             </p>
           </section>

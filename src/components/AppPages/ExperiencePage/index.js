@@ -16,7 +16,7 @@ import { useEffect } from 'react';
 // == Composant
 function ExperiencePage() {
   const url = {
-    video: 'https://wetransfer.com/downloads/a5723c407298df4e396f41ca51a01eba20220817113301/dd019c4f3e035a3eb487aef05c54694820220817113313/0a1e6b'
+    video: 'https://youtube.com/shorts/9g917riH64o?feature=share'
   }
   
   return (
